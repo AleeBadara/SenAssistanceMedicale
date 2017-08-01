@@ -1,0 +1,86 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    line-height: 1.8em;
+}
+
+p{
+    margin-bottom: 0;
+}
+
+
+.pimg3, .image_accueil, .image_interim, .image_consultation, .image_priseencharge{
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.pimg3{
+    background-image: url('img/mutuelle.jpg');
+    min-height: 400px;
+}
+
+.image_accueil{
+   background-image: url('img/accueil.jpeg');
+    min-height: 500px; 
+}
+
+.image_interim{
+    background-image: url('img/interim.jpeg');
+    min-height: 400px;
+}
+
+.image_consultation{
+    background-image: url('img/consultation3.jpeg');
+    min-height: 400px;
+}
+
+.image_priseencharge{
+    background-image: url('img/priseencharge.jpeg');
+    min-height: 400px;
+}
+
+.section{
+    text-align: center;
+}
+
+.section-light{
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+.section-dark{
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.section_title{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+    letter-spacing: 0.4rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+.textDescription{
+    line-height: 2.5;
+}
+
+.section_title .border{
+    background-color: #111;
+    padding: 20px;
+}
+
+@media(max-width:500px){
+    .pimg3, .image_accueil, .image_interim, .image_consultation, .image_priseencharge{
+        background-attachment: scroll;
+    }
+}

@@ -1,0 +1,26 @@
+.footer_info{
+    padding: 0.5rem;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    color: grey;
+ }
+
+ @media(max-width:500px){
+    .footer{
+   flex-direction: column;
+    } 
+ }
+
+ .developerInfo{
+     display: flex;
+     flex-direction: column;
+     color: grey;
+ }
+
+ .auteur{
+     font-weight: bold;
+ }

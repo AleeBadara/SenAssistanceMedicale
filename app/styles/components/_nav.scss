@@ -1,0 +1,34 @@
+.menu_container{
+    flex: 1;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+@media(max-width:500px){
+    .menu_container{    
+    justify-content: flex-start;
+}
+}
+
+.nav_container{
+    width: 100%;
+}
+
+.nav_appbar{
+    background-color: $navbar-color !important;
+    position: fixed !important;
+    top: 0;
+}
+
+.menu_info{
+    padding: 0.5rem;
+    color: white !important;
+}
+
+ .customeFontAwesome{
+     padding-right: 1px;
+ }
+
+ 
