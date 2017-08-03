@@ -22,6 +22,12 @@
     top: 0;
 }
 
+@media(max-width:500px){
+    .nav_appbar{    
+     position: static !important;
+}
+}
+
 .menu_info{
     padding: 0.5rem;
     color: white !important;
