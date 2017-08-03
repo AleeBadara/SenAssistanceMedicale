@@ -10,9 +10,9 @@ const PriseEnCharge = () => {
             </div>
 
             <section className="section">
-                <h2>Nos domaines d'intervention </h2>
+                <h2>Soins à l'étranger </h2>
                 <p className="textDescription">
-                    Consultation et prise en charge médicales et/ou chirurgicales dans d'autres pays. <br/>Sed ut perspiciatis unde omnis iste natus
+                    Consultation et prise en charge médicales et/ou chirurgicales dans d'autres pays. <br />Sed ut perspiciatis unde omnis iste natus
             error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
             veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
             aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
@@ -24,7 +24,7 @@ const PriseEnCharge = () => {
         </p>
             </section>
         </div>
-            )
+    )
 }
 
 module.exports = PriseEnCharge;
